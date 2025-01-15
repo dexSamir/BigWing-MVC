@@ -1,0 +1,23 @@
+﻿@model DepartmentUpdateVM
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="m-0 font-weight-bold text-primary">Update Department</h6>
+                    <a asp-action="Index" asp-controller="Department" class="btn btn-outline-primary">Return List</a>
+                </div>
+                <div class="card-body">
+                    <form enctype="multipart/form-data" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control">
+                            <span asp-validation-for="Name" class="text-danger text-small"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

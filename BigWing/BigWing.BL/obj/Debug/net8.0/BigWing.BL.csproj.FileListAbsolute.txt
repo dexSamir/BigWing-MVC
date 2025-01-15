@@ -1,0 +1,17 @@
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.BL.deps.json
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.BL.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.BL.pdb
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.Core.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.DAL.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.DAL.pdb
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\bin\Debug\net8.0\BigWing.Core.pdb
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.csproj.AssemblyReference.cache
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.AssemblyInfoInputs.cache
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.AssemblyInfo.cs
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.csproj.CoreCompileInputs.cache
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.csproj.CopyComplete
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\refint\BigWing.BL.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.pdb
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\ref\BigWing.BL.dll
