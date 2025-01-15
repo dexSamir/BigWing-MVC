@@ -10,3 +10,4 @@ C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.Core\obj\Debug\net8.0\BigW
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.Core\obj\Debug\net8.0\refint\BigWing.Core.dll
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.Core\obj\Debug\net8.0\BigWing.Core.pdb
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.Core\obj\Debug\net8.0\ref\BigWing.Core.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.Core\obj\Debug\net8.0\BigWing.Core.sourcelink.json

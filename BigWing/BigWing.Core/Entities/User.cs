@@ -12,6 +12,6 @@ public class User : IdentityUser
     public string Surname { get; set; } 
     public string Comment { get; set; }  
     public string ProfileImageUrl { get; set; }  
-    public int DepartmentId { get; set; }   
-    public Department Department { get; set; }
+    public int? DepartmentId { get; set; }   
+    public Department? Department { get; set; }
 }

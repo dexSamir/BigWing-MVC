@@ -1,4 +1,6 @@
+using BigWing.Core.Entities;
 using BigWing.DAL.Context;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace BigWing.MVC
@@ -13,6 +15,17 @@ namespace BigWing.MVC
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<AppDbContext>(opt =>
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSQL")));
+
+            builder.Services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 3;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireLowercase = false;
+                opt.Lockout.MaxFailedAccessAttempts = 20;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromSeconds(1);
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
             var app = builder.Build();
 
@@ -31,7 +44,13 @@ namespace BigWing.MVC
 
             app.UseAuthorization();
 
-                app.MapControllerRoute(
+            app.MapControllerRoute(
+               name: "register",
+               pattern: "register",
+               defaults: new { controller = "Auth", action = "Register" });
+
+
+            app.MapControllerRoute(
                 name: "areas",
                 pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
             );

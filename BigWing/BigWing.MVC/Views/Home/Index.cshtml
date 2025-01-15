@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<User>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -178,84 +179,31 @@
       </h2>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
+             @foreach (var item in Model ?? [])
+                    {
           <div class="carousel-item active">
-            <div class="client_container layout_padding2">
-              <div class="client_text">
-                <p>
-                  psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                </p>
-              </div>
-              <div class="detail-box">
-                <div class="img-box">
-                  <img src="~/assets/images/client.png" alt=""/>
-                </div>
-                <div class="name">
-                  <h5>
-                    Joans Mark
-                  </h5>
-                  <p>
-                    cal
-                  </p>
-                </div>
-              </div>
-            </div>
+                        <div class="client_container layout_padding2">
+                            <div class="client_text">
+                                <p>
+                                    @item.Comment
+                                </p>
+                            </div>
+                            <div class="detail-box">
+                                <div class="img-box">
+                                    <img src="~/imgs/user/@item.ProfileImageUrl" alt="" />
+                                </div>
+                                <div class="name">
+                                    <h5>
+                                        @item.Name @item.Surname
+                                    </h5>
+                                    <p>
+                                        @item.Department?.Name
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
           </div>
-          <div class="carousel-item">
-            <div class="client_container layout_padding2">
-              <div class="client_text">
-                <p>
-                  psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                </p>
-              </div>
-              <div class="detail-box">
-                <div class="img-box">
-                  <img src="~/assets/images/client.png" alt=""/>
-                </div>
-                <div class="name">
-                  <h5>
-                    Joans Mark
-                  </h5>
-                  <p>
-                    cal
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="client_container layout_padding2">
-              <div class="client_text">
-                <p>
-                  psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                </p>
-              </div>
-              <div class="detail-box">
-                <div class="img-box">
-                  <img src="~/assets/images/client.png" alt=""/>
-                </div>
-                <div class="name">
-                  <h5>
-                    Joans Mark
-                  </h5>
-                  <p>
-                    cal
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+                    }
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="sr-only">Previous</span>

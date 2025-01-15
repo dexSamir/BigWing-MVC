@@ -15,3 +15,4 @@ C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.DAL\obj\Debug\net8.0\refin
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.DAL\obj\Debug\net8.0\BigWing.DAL.pdb
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.DAL\obj\Debug\net8.0\BigWing.DAL.genruntimeconfig.cache
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.DAL\obj\Debug\net8.0\ref\BigWing.DAL.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.DAL\obj\Debug\net8.0\BigWing.DAL.sourcelink.json

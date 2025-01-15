@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BigWing.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f510d9200ca489f2c912ce7dd1d887100ec2d741")]
 [assembly: System.Reflection.AssemblyProductAttribute("BigWing.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BigWing.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

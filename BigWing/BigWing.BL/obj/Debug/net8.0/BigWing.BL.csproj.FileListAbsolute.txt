@@ -15,3 +15,4 @@ C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWin
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\refint\BigWing.BL.dll
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.pdb
 C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\ref\BigWing.BL.dll
+C:\Users\ll Novbe\Desktop\BigWing-MVC\BigWing\BigWing.BL\obj\Debug\net8.0\BigWing.BL.sourcelink.json

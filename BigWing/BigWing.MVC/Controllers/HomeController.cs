@@ -1,12 +1,17 @@
 
+using BigWing.DAL.Context;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace BigWing.MVC.Controllers;
-public class HomeController : Controller
+public class HomeController(AppDbContext _context) : Controller
 {
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View(); 
+        var clients = await _context.Users.Include(x => x.Department).ToListAsync();
+
+        return View(clients);
+
     }
 }
